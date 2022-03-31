@@ -1,0 +1,18 @@
+[package]
+name = "bitwarden-checker"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
+
+[dependencies]
+serde_json = "1.0.79"
+structopt = "0.3"
+tokio = { version = "1.16.1", features = ["full"] }
+reqwest = { version = "0.11.9", features = ["gzip", "brotli"] }
+bitwarden-data = "0.1.0"
+haveibeenrusted = "0.1.0"

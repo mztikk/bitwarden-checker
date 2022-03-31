@@ -15,4 +15,5 @@ structopt = "0.3"
 tokio = { version = "1.16.1", features = ["full"] }
 reqwest = { version = "0.11.9", features = ["gzip", "brotli"] }
 bitwarden-data = "0.1.0"
-haveibeenrusted = "0.1.0"
+haveibeenrusted = "0.1.1"
+futures = "0.3.19"

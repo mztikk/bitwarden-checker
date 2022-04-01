@@ -422,9 +422,9 @@ checksum = "ab5ef0d4909ef3724cc8cce6ccc8572c5c817592e9285f5464f8e86f8bd3726e"
 
 [[package]]
 name = "haveibeenrusted"
-version = "0.1.1"
+version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3536c8b7c93e18765837eee07c10f8717a0fe1640d422aeee6607ff9795af2bf"
+checksum = "a5ea325d7c3b236c8bac6a12f40f976f813e72b24c868d6003749b014e3f9c4f"
 dependencies = [
  "base16ct",
  "regex",
